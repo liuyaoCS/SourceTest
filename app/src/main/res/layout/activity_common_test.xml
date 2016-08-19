@@ -1,0 +1,19 @@
+<com.ly.sourcetest.MyRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+<com.ly.sourcetest.MyLinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <com.ly.sourcetest.MyButton
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:id="@+id/btn"
+       android:text="test"/>
+</com.ly.sourcetest.MyLinearLayout>
+
+
+</com.ly.sourcetest.MyRelativeLayout>
